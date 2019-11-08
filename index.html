@@ -2,20 +2,37 @@
 <html>
 <head>
     <title>Index</title>
-    <style>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css">
+    <!--<style>
        body {background-color: powderblue;}
        p    {color: red;}
-    </style>
+    </style>-->
 
 </head>
+
 <body>
+<form class="pure-form">
+    <fieldset>
+        <legend>A compact inline form</legend>
+
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+
+        <label for="remember">
+            <input id="remember" type="checkbox"> Remember me
+        </label>
+
+        <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+    </fieldset>
+</form>
 <!--Text in between beginning tag and end tag is called tag value-->
    <h1>Learn HTML </h1>
    <h2>Learn HTML</h2>
    <h3>Learn HTML</h3>
    <h4>Learn HTML</h4>
    <H5>Learn HTML</H5>
-  <p style="background-color:Black;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  <p class="background--skyBlue">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
       when an unknown printer took a galley of type and scrambled it to make a type
       specimen book. It has survived not only five centuries, but also the leap into
