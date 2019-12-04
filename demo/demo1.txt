@@ -1,0 +1,11 @@
+Hello, We are learning Linux commands!!!!
+ls --> list
+cd --> Change directory // Go one step ahead
+mkdir --> make a new directory
+rm --> remove file
+pwd --> present working directory
+cat --> see the contents of the file
+echo --> print text in the terminal
+cd .. --> Go to previous directory // Go one step back
+touch --> create new file
+nano --> create any formate of file
